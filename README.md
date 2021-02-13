@@ -8,3 +8,14 @@
 
 
 ![](https://user-images.githubusercontent.com/48859773/107848125-0741fb80-6e17-11eb-8ab5-49c76a85b6a5.png)
+
+
+## Contributions
+
+Contributions are always **welcome and recommended**! Here is how:
+
+- Fork the repository ( [Here is the Guide](https://help.github.com/articles/fork-a-repo/) ).
+- Clone to your machine
+- Create a new branch
+- Make your changes
+- Create a pull request
