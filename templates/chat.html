@@ -44,27 +44,6 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
 
-<!-- <script>
-  var btn = document.getElementById('btn');
-  btn.addEventListener('click', (event) => {
-    event.preventDefault();
-    var username = document.getElementById('username').value;
-    var message = document.getElementById('message').value;
-    let div = document.getElementById("chat-content");
-    let msg = document.createElement("span");
-
-    msg.id = "msg-" + 0;
-    msg.classList.add("msg");
-    msg.innerHTML = "<div class='head'> <b> " + username + "</b> </div>";
-    msg.innerHTML += "<p class='body'> " + message + " </p>";
-    div.appendChild(msg);
-
-    var elem = document.getElementById('chat-content');
-    elem.scrollTop = elem.scrollHeight;
-
-  });
-</script> -->
-
 <script>
   // var socket = io.connect('http://127.0.0.1:5000/');
   document.addEventListener('DOMContentLoaded', () => {
@@ -88,8 +67,6 @@
         })
         document.getElementById('message').value = "";
         document.getElementById('message').focus();
-        var elem = document.getElementById('chat-content');
-        elem.scrollTop = elem.scrollHeight;
       }
     });
 
@@ -104,11 +81,9 @@
           ele.innerHTML = "<div class='head'> <b> " + msg.user + "</b> </div>";
           ele.innerHTML += "<p class='body'> " + msg.msg + " </p>";
           div.appendChild(ele);
-
-          //   var tag = document.createElement("p");
-          // tag.innerHTML = `<b>`+msg.user+`</b> : `+msg.msg;
-          // var element = document.getElementById("message_holder");
-          // element.appendChild(tag);
+          
+          var elem = document.getElementById('chat-content');
+          elem.scrollTop = elem.scrollHeight;
         }
       }
       // console.log(msg);
