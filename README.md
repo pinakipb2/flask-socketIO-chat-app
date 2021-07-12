@@ -9,6 +9,13 @@
 
 ![](https://user-images.githubusercontent.com/48859773/107848125-0741fb80-6e17-11eb-8ab5-49c76a85b6a5.png)
 
+## Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/chandra8226"><img src="https://avatars.githubusercontent.com/u/64802100?v=4" width="100px;" alt="Chandra Prakash"/><br /><sub><b>Chandra Prakash</b></sub></a></td>    
+  </tr>
+ </table>
 
 ## Contributions
 
